@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>fbfacf20-361f-4f6e-971b-aa69263c5878.SCHEMA:db_Larahub</OriginalElement>
+  <nodes>
+    <node x="200.75" y="213.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.pertanyaan</node>
+    <node x="303.5" y="0.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile</node>
+    <node x="85.5" y="536.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.like_pertanyaan</node>
+    <node x="89.20535714285717" y="787.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.komentar_jawaban</node>
+    <node x="502.45535714285717" y="787.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.like_jawaban</node>
+    <node x="500.5" y="536.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.komentar_pertanyaan</node>
+    <node x="273.5" y="488.0">fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.jawaban</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.komentar_jawaban" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.jawaban">
+      <point x="54.25" y="-76.5" />
+      <point x="251.95535714285717" y="762.0" />
+      <point x="325.25" y="762.0" />
+      <point x="-51.75" y="124.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.like_jawaban" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile">
+      <point x="36.75" y="-76.5" />
+      <point x="612.7053571428571" y="762.0" />
+      <point x="728.0" y="762.0" />
+      <point x="728.0" y="173.0" />
+      <point x="438.25" y="173.0" />
+      <point x="61.25" y="76.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.jawaban" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile">
+      <point x="51.75" y="-124.5" />
+      <point x="428.75" y="468.0" />
+      <point x="439.25" y="468.0" />
+      <point x="439.25" y="193.0" />
+      <point x="389.25" y="193.0" />
+      <point x="12.25" y="76.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.komentar_pertanyaan" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.pertanyaan">
+      <point x="-54.25" y="-76.5" />
+      <point x="554.75" y="458.0" />
+      <point x="390.75" y="458.0" />
+      <point x="76.0" y="112.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.jawaban" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.pertanyaan">
+      <point x="-51.75" y="-124.5" />
+      <point x="325.25" y="468.0" />
+      <point x="314.75" y="468.0" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.komentar_pertanyaan" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile">
+      <point x="54.25" y="-76.5" />
+      <point x="663.25" y="183.0" />
+      <point x="413.75" y="183.0" />
+      <point x="36.75" y="76.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.komentar_jawaban" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile">
+      <point x="-54.25" y="-76.5" />
+      <point x="143.45535714285717" y="762.0" />
+      <point x="75.0" y="762.0" />
+      <point x="75.0" y="173.0" />
+      <point x="315.75" y="173.0" />
+      <point x="-61.25" y="76.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.pertanyaan" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile">
+      <point x="0.0" y="-112.5" />
+      <point x="314.75" y="193.0" />
+      <point x="364.75" y="193.0" />
+      <point x="-12.25" y="76.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.like_pertanyaan" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.pertanyaan">
+      <point x="42.0" y="-76.5" />
+      <point x="211.5" y="468.0" />
+      <point x="238.75" y="468.0" />
+      <point x="-76.0" y="112.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.like_pertanyaan" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.profile">
+      <point x="-42.0" y="-76.5" />
+      <point x="127.5" y="468.0" />
+      <point x="135.64285714285717" y="468.0" />
+      <point x="135.64285714285717" y="183.0" />
+      <point x="340.25" y="183.0" />
+      <point x="-36.75" y="76.5" />
+    </edge>
+    <edge source="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.like_jawaban" target="fbfacf20-361f-4f6e-971b-aa69263c5878.TABLE:db_Larahub.jawaban">
+      <point x="-36.75" y="-76.5" />
+      <point x="539.2053571428571" y="762.0" />
+      <point x="428.75" y="762.0" />
+      <point x="51.75" y="124.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8526315789473684" x="594.9787609894129" y="453.48148148148147" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
